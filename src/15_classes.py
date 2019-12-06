@@ -2,7 +2,9 @@
 # constructor
 
 # YOUR CODE HERE
-        
+  class LatLon()
+
+
 # Make a class Waypoint that can be passed parameters `name`, `lat`, and `lon` to the
 # constructor. It should inherit from LatLon. Look up the `super` method.
 
@@ -27,3 +29,6 @@ print(waypoint)
 
 # Print it--also make this print more nicely
 print(geocache)
+
+# Something is going on with this file and I don't know what I even
+# copied it fresh from the github repo

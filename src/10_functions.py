@@ -15,8 +15,8 @@ num = int(num)
 
 # YOUR CODE HERE
 if (num % 2) == 0:
-  print(f'{num} is EVEN!')
+  print("number" + " is even!")
 else:
-  print(f'{num} is Odd!')
+  print("number" + " is Odd!")
 
 # works in pipenv woohoo!!
