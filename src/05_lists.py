@@ -8,22 +8,30 @@ y = [8, 9, 10]
 
 # Change x so that it is [1, 2, 3, 4]
 # YOUR CODE HERE 
+x.append(4) #puts value at last index
+# x.insert(3, 4) #index first then value
 print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
-# YOUR CODE HERE 
+# YOUR CODE HERE
+# y = [8,9,10] (y is set above)
+x.extend(y) 
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE 
+x.pop(4)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
-# YOUR CODE HERE 
+# YOUR CODE HERE  
+print(x.insert(5, 99))
 print(x)
 
 # Print the length of list x
 # YOUR CODE HERE 
+print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+print([value * 1000 for value in x])
